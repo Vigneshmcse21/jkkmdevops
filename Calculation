@@ -1,10 +1,8 @@
-public int add(int [] a ) {
-
-int val = 0 ; 
-for(int i ; i < a.size() ; i++){
-val = val + a[i];
-}
-
-return val 
-
+public class MultiplyExample {
+   public static void main(String[] args) {
+       int a;
+       a = 5;
+       System.out.println("7*7 = " + 7*7);
+       System.out.println("a*5 = " + a*5);
+   }
 }
